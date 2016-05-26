@@ -1,0 +1,113 @@
+                            @font-face {
+                                font-family: 'myFont';
+                                src: url('../font.ttf');
+                            }
+                            
+                            .clockRadius {
+                                width: 400px;
+                                height: 400px;
+                                border-radius: 100%;
+                                margin: 0 auto;
+                                position: relative;
+                            }
+                            
+                            .rad1 {
+                                height: 400px;
+                                width: 1px;
+                                position: absolute;
+                                margin-left: 50%;
+                                background-color: black;
+                            }
+                            
+                            .divLarge {
+                                height: 400px;
+                                position: absolute;
+                                margin-left: 50%;
+                                background-color: black;
+                            }
+                            
+                            .whiteRad {
+                                height: 380px;
+                                width: 380px;
+                                margin: 10px;
+                                z-index: 1;
+                                border-radius: 100%;
+                                background-color: white;
+                                position: absolute;
+                            }
+                            
+                            .whiteRadL {
+                                height: 370px;
+                                width: 370px;
+                                margin: 15px;
+                                z-index: 3;
+                                border-radius: 100%;
+                                background-color: white;
+                                position: absolute;
+                            }
+                            
+                            p {
+                                font-size: 45px;
+                                position: absolute;
+                                font-family: 'myFont';
+                            }
+                            
+                            .whiteRadL p:nth-child(1) {
+                                right: 88px;
+                                top: -10px;
+                            }
+                            
+                            .whiteRadL p:nth-child(2) {
+                                right: 35px;
+                                top: 42px;
+                            }
+                            
+                            .whiteRadL p:nth-child(3) {
+                                right: 12px;
+                                top: 112px;
+                            }
+                            
+                            .whiteRadL p:nth-child(4) {
+                                right: 34px;
+                                top: 186px;
+                            }
+                            
+                            .whiteRadL p:nth-child(5) {
+                                right: 86px;
+                                bottom: -12px;
+                            }
+                            
+                            .whiteRadL p:nth-child(6) {
+                                right: 173px;
+                                bottom: -42px;
+                            }
+                            
+                            .whiteRadL p:nth-child(7) {
+                                left: 94px;
+                                bottom: -11px;
+                            }
+                            
+                            .whiteRadL p:nth-child(8) {
+                                left: 37px;
+                                top: 186px;
+                            }
+                            
+                            .whiteRadL p:nth-child(9) {
+                                left: 10px;
+                                bottom: 116px;
+                            }
+                            
+                            .whiteRadL p:nth-child(10) {
+                                left: 30px;
+                                top: 42px;
+                            }
+                            
+                            .whiteRadL p:nth-child(11) {
+                                left: 79px;
+                                top: -10px;
+                            }
+                            
+                            .whiteRadL p:nth-child(12) {
+                                right: 162px;
+                                top: -42px;
+                            }
